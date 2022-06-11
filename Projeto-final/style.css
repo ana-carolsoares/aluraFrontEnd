@@ -1,6 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 header{
 	background-color: rgba(207, 211, 211, 0.658);
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .caixa{
     width: 940px;
@@ -9,11 +13,17 @@ header{
 }
 nav{
     position: absolute;
-    top: 90px;
+    top: 110px;
     right: 0;
-	
-}
+	display: inline;
 
+}
+.menu{
+	display: inline;
+	vertical-align: top;
+	width: 0;
+	margin-right: 0;
+}
 nav li{
     display: inline;
     margin-left: 15px;
@@ -38,18 +48,24 @@ nav a:hover{
 .principal{
 	background: rgba(207, 211, 211, 0.534);
 	padding: 30px;
+
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	margin: 0;
 }
 
 p {
 	text-align: center;
+	font-size: 18px;
 }
 
 #missao {
-	font-size: 20px
+	font-size: 22px;
+	padding: 20px 0;
 }
 
 em strong {
@@ -57,21 +73,36 @@ em strong {
 }
 
 .itens {
-	font-style: italic
+	font-style: italic;
+	font-size: 20px;
+	padding: 20px 0;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
 
-ul {
+
+.beneficios ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
+	margin-left: 20%;
+	margin-top: 50px;
+	
 }
 
 .imagembeneficios {
-	width: 50%;
+	width: 37%;
+}
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+
 }
